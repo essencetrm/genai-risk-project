@@ -1,52 +1,46 @@
 # GenAI Risk Assessment Tool (v0.1)
 
-This repository documents my early-stage work in **GRC and AI risk engineering**, using Python to explore security risks outlined in the **OWASP GenAI Security Project**.
+A Python-based learning project exploring Generative AI security risks using concepts from the OWASP GenAI Security Project.
 
-The focus is not just on identifying risks, but on **translating GenAI behavior into governance, risk, and control logic**.
-
----
+This repository documents my hands-on journey combining Python fundamentals, risk thinking, and GenAI security governance.
 
 ## Purpose
+- Practice Python fundamentals in a GenAI security context
 
-* Practice Python fundamentals in a GenAI security context
-* Study how GenAI systems can fail, be misused, or leak data
-* Convert security concepts into **structured, testable risk logic**
-* Build intuition for **AI risk assessment beyond checklists**
+- Understand how GenAI systems can fail, leak data, or be misused
 
----
+- Translate technical behavior into risk, impact, and control thinking aligned with GRC principles
 
 ## What This Project Does
+- Stores GenAI risks using Python lists and dictionaries
 
-* Stores GenAI risks using Python lists and dictionaries
-* Evaluates risks using simple conditional logic
-* Simulates agentic behavior and trust assumptions
-* Maps technical behaviors to **risk, impact, and mitigation thinking**
+- Simulates how risks are accessed, evaluated, and logged
 
-This project is intentionally simple at this stage, prioritizing **clarity of reasoning over complexity**.
+- Connects coding errors (logic, input handling) to real-world GenAI risks
 
----
+- Introduces basic agentic risk evaluation logic
 
-## Learning Focus (Current)
+## Current Focus Areas
+- OWASP GenAI risks (e.g., Prompt Injection, Data Leakage, Model Misuse)
 
-* Python fundamentals (data structures, control flow, functions)
-* OWASP GenAI risks (e.g., Prompt Injection, Data Leakage, Model Misuse)
-* Early agentic risk modeling
-* Logging security-relevant outcomes programmatically
+- Python control flow (if/else, functions, dictionaries)
 
----
+- Risk impact reasoning and mitigation mapping
 
 ## Status
+This is an early learning version (v0.1) and is actively evolving.
 
-This is an **early learning version (v0.1)**.
+The project will grow as I deepen my understanding of:
 
-The project will evolve as I deepen my understanding of:
+- OWASP GenAI threats and mitigations
 
-* OWASP GenAI threats and mitigations
-* Secure-by-design AI systems
-* GRC engineering workflows
+- Secure-by-design AI systems
 
-The goal is steady progression from **learning artifacts → job-ready security tooling**.
+- GRC and risk engineering workflows
+
+The goal is steady progression from learning artifacts → job-ready security tooling.
 
 
+## Disclaimer
 
-Keep going. You’re building the right way.
+This project is for educational and learning purposes and does not represent a production security tool.
