@@ -1,18 +1,46 @@
 # GenAI Risk Assessment Tool (v0.1)
 
-This project is a Python-based learning tool designed to explore
-Generative AI security risks using concepts from the OWASP GenAI Security Project.
+A Python-based learning project exploring Generative AI security risks using concepts from the OWASP GenAI Security Project.
+
+This repository documents my hands-on journey combining Python fundamentals, risk thinking, and GenAI security governance.
 
 ## Purpose
 - Practice Python fundamentals in a GenAI security context
-- Understand how GenAI systems can fail or be misused
-- Translate technical behavior into risk and governance thinking
+
+- Understand how GenAI systems can fail, leak data, or be misused
+
+- Translate technical behavior into risk, impact, and control thinking aligned with GRC principles
 
 ## What This Project Does
 - Stores GenAI risks using Python lists and dictionaries
-- Simulates how risks are accessed and evaluated
-- Connects coding errors to real-world GenAI risk concepts
+
+- Simulates how risks are accessed, evaluated, and logged
+
+- Connects coding errors (logic, input handling) to real-world GenAI risks
+
+- Introduces basic agentic risk evaluation logic
+
+## Current Focus Areas
+- OWASP GenAI risks (e.g., Prompt Injection, Data Leakage, Model Misuse)
+
+- Python control flow (if/else, functions, dictionaries)
+
+- Risk impact reasoning and mitigation mapping
 
 ## Status
-This is an early learning version (v0.1) and will evolve as my
-GenAI security and Python skills grow.
+This is an early learning version (v0.1) and is actively evolving.
+
+The project will grow as I deepen my understanding of:
+
+- OWASP GenAI threats and mitigations
+
+- Secure-by-design AI systems
+
+- GRC and risk engineering workflows
+
+The goal is steady progression from learning artifacts → job-ready security tooling.
+
+
+## Disclaimer
+
+This project is for educational and learning purposes and does not represent a production security tool.

@@ -41,7 +41,12 @@ if __name__ == "__main__":
 # GenAI Risk Assessment Tool – v0.1
 print ("GenAI Risk Assessment Tool – v0.1")
 
-# Learning [Lists, Dictionaries] as it applies in real world
+# basic_risks -- risks1 -- risks2
+# agentic_risks -- genai_risks1
+# genai_risk_register -- risk_name1
+# current_risk -- risk_name2
+
+# Learning list operations (practice only)
 risks1 = ["Prompt Injection", "Data Leakage"]
 risks2 = ["Model Misuse"]
 
@@ -65,8 +70,8 @@ print(risks1[1]), (risks2[1])
 # Day 2: Risk Register Core
 # -------------------------
 
-#Dictionaries = meaning + structure (this is the real power)
-genai_risks1 = {
+# Dictionary acting as a simple GenAI risk register
+genai_risks_register = {
     "Prompt Injection": "Manipulating model input to bypass safeguards", 
     "Data Leakage": "Exposure of sensitive training or user data",
     "Model Misuse": " Using AI systems for unintended or harmful purpose",
@@ -75,23 +80,23 @@ genai_risks1 = {
 
 # List all risks
 print("GenAI Risks Identified:")
-for risk1 in genai_risks1:
+for risk1 in genai_risks_register:
     print("-", risk1)
 
 # Retrieve a single risk
 print("\nRisk Detail:")
-print("Model Misuse", genai_risks1["Model Misuse"])
-print("Data Leakage", genai_risks1["Data Leakage"])
-print("Testing Error", genai_risks1["Testing Error"])
+print("Model Misuse", genai_risks_register["Model Misuse"])
+print("Data Leakage", genai_risks_register["Data Leakage"])
+print("Testing Error", genai_risks_register["Testing Error"])
 
 # -------------------------
 # Day 3: Risk Register Core
 # -------------------------
 
-	# if / else
-	# Simple logic: risk_level = "High"
-	# if risk_level == "High":
-	# print("Immediate action required")
+# if / else
+# Simple logic: risk_level = "High"
+# if risk_level == "High":
+# print("Immediate action required")
 
 
 risk_levels = {
