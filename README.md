@@ -44,3 +44,43 @@ The goal is steady progression from learning artifacts → job-ready security to
 ## Disclaimer
 
 This project is for educational and learning purposes and does not represent a production security tool.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Learning Notes (Week 1)
+
+What this project demonstrates:
+A modeled GenAI risk register using Python structures to represent LLM-related risks, impacts, and mitigation controls.
+
+Key insight gained:
+Modeling risks as data highlighted why static evidence (e.g., screenshots) cannot represent a real security posture in dynamic AI systems.
+
+Open questions:
+How real-world systems detect prompt injection at runtime and how response latency can be exploited before controls engage.
