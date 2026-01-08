@@ -66,7 +66,7 @@ print(risks1[1]), (risks2[1])
 # -------------------------
 
 #Dictionaries = meaning + structure (this is the real power)
-genai_risks1 = {
+genai_risks_register = {
     "Prompt Injection": "Manipulating model input to bypass safeguards", 
     "Data Leakage": "Exposure of sensitive training or user data",
     "Model Misuse": " Using AI systems for unintended or harmful purpose",
@@ -75,14 +75,14 @@ genai_risks1 = {
 
 # List all risks
 print("GenAI Risks Identified:")
-for risk1 in genai_risks1:
+for risk1 in genai_risks_register:
     print("-", risk1)
 
 # Retrieve a single risk
 print("\nRisk Detail:")
-print("Model Misuse", genai_risks1["Model Misuse"])
-print("Data Leakage", genai_risks1["Data Leakage"])
-print("Testing Error", genai_risks1["Testing Error"])
+print("Model Misuse", genai_risks_register["Model Misuse"])
+print("Data Leakage", genai_risks_register["Data Leakage"])
+print("Testing Error", genai_risks_register["Testing Error"])
 
 # -------------------------
 # Day 3: Risk Register Core
