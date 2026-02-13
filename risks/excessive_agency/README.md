@@ -11,7 +11,7 @@ Primary Concern:
 Loss of human-in-the-loop control
 
 
-## Risk Classic=fication
+## Risk Classicification
 Failure Type: Unauthorized Autonomy
 Security Principle Impact: Governance and Oversight
 
